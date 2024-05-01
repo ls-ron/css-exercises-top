@@ -23,7 +23,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
-  margin: 2rem;
+  margin-right: 1rem;
 }
 
 .logo {
@@ -52,5 +52,19 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.left {
+  justify-content: left;
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  justify-content: right;
+  display: flex;
+  align-items: center;
 }
