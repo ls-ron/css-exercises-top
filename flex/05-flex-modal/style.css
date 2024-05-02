@@ -20,35 +20,10 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 2rem;
-  display: flex;
-}
-
-.horiz {
-  display: flex;
-  justify-content: space-between;
-  
-}
-
-.textes {
-  display: flex;
-  flex-direction: column;
-}
-
-.header {
-  display: flex;
-  font-size: larger;
-  font-weight: bold;
-  padding-bottom: 1rem;
-}
-
-.headernX {
+  padding: 1rem;
   display: flex;
   justify-content: center;
-}
-
-.text {
-  padding-bottom: 1rem;
+  align-items: center;
 }
 
 .icon {
@@ -62,21 +37,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
   background: #eee;
   border-radius: 50%;
   color: #888;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight:bolder;
+  font-size: 12px;
   height: 24px;
   width: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid #eee;
-  padding: 1rem;
+  padding: 0;
+
 }
 
 button {
@@ -96,4 +73,36 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.horiz {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 0.7rem;
+}
+
+.top-left {
+  display: flex;
+}
+
+.textes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.headnX {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.buttons {
+  padding-top: 1rem;
 }
