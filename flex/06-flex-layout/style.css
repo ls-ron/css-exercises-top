@@ -63,7 +63,7 @@ a {
 }
 
 button {
-  padding: 0.3rem;
+  padding: 0.5rem;
 }
 
 .footer {
@@ -71,6 +71,7 @@ button {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  background-color: #eeeeee;
 }
 
 .footer .left-links, .right-links {
